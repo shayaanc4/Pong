@@ -4,17 +4,22 @@ This project implements the classic Pong game on an FPGA platform using Verilog.
 Features
 
 • VGA Output: Generates a 640x480 resolution display.
+
 •	Game Logic:
+
 	•	Ball movement with collision detection for paddles, top/bottom boundaries, and scoring zones.
 	•	Paddle control via input keys.
 	•	Automatic game reset on scoring.
+ 
 •	Custom Hardware Modules:
+
 	•	VGA timing generator (vga_timing.v).
 	•	Game clock divider (game_clock.v).
 	•	Game logic controller (game_logic.v).
 	•	Object drawing logic (draw_objects.v).
 	•	7-Segment Display driver (FullSegmentDisplay.bdf)
 	•	Top-level game controller (vga_schematic.bdf)
+ 
 •	Pin Configuration: Defined in DE0_CV_pins.qsf for the Terasic DE0-CV FPGA board.
 
  How to Run
