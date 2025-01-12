@@ -19,8 +19,6 @@ Features
 	•	Object drawing logic (draw_objects.v).
 	•	7-Segment Display driver (FullSegmentDisplay.bdf)
 	•	Top-level game controller (vga_schematic.bdf)
- 
-•	Pin Configuration: Defined in DE0_CV_pins.qsf for the Terasic DE0-CV FPGA board.
 
  How to Run
 
